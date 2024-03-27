@@ -18,5 +18,5 @@ def main():
         X = np.array([float(x) for x in x_input.split(',')])
         data = calculate_range(X)
         st.write(f'The range of the set of numbers is {data}')
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
