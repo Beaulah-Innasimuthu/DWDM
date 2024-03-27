@@ -19,4 +19,4 @@ def main():
         data = calculate_range(X)
         st.write(f'The range of the set of numbers is {data}')
 if _name_ == '_main_':
-    main()
+    main()
