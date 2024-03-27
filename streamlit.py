@@ -5,7 +5,7 @@ def calculate_range(data):
     min_val = np.min(data)
     max_val = np.max(data)
     r_data = min_val-max_val
-    return r_dtaa
+    return r_data
 
 def main():
     st.title('Range Generator')
